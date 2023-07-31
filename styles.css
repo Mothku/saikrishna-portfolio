@@ -1,0 +1,207 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap');
+     :root {
+        --primary-color: #332727;
+        --light-green: #020302;
+        --grey-color: #5950e3;
+        --off-white: #02ffcc;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0px;
+    }
+    
+    .bg-img {
+        background-color: #efe1e1;
+    }
+    
+    .a {
+        width: auto;
+        height: auto;
+        border: 4px solid rgba(189, 50, 50, 0.726);
+        margin: auto;
+        padding: 0.4%;
+        border-radius: 1rem;
+    }
+    
+    .b {
+        width: auto;
+        height: auto;
+        border: 4px solid rgba(203, 185, 185, 0.726);
+        margin: auto;
+        padding: 0.4%;
+        border-radius: 1rem;
+    }
+    
+    #a {
+        border-radius: 15px;
+        background-color: #56abae;
+        padding: 2px;
+        height: 250px;
+        width: 300px;
+        background-position: left top;
+        background-repeat: no-repeat;
+    }
+    
+    #b {
+        border-radius: 0px;
+        background-color: #000000;
+        padding: 0px;
+        height: 280px;
+        width: 500px;
+        background-position: left top;
+        background-repeat: no-repeat;
+    }
+    
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .container-centre {
+        max-width: 600px;
+        margin: auto;
+        padding-bottom: 2rem;
+    }
+    
+    .section-white {
+        margin-bottom: 2rem;
+    }
+    
+    hr {
+        margin: 2rem 0rem;
+    }
+    
+    .link {
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+    }
+    
+    .link-primary {
+        background-color: var(--primary-color);
+        color: white;
+        margin-top: 1rem;
+    }
+    
+    .link-secondary {
+        border: 1px solid var(--primary-color);
+        color: var(--primary-color);
+        margin-top: 1rem;
+    }
+    
+    .list-no-bullet {
+        list-style: none;
+    }
+    
+    .list-no-bullet-inline {
+        display: inline;
+        padding: 0rem 0.5rem;
+    }
+    
+    .navigation {
+        background-color: var(--primary-color);
+        color: rgb(255, 255, 255);
+        padding: 1rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    
+    .link-nav {
+        color: aliceblue;
+        text-decoration: none;
+    }
+    
+    .nav-pills {
+        text-align: right;
+    }
+    
+    .iam {
+        font-weight: lighter;
+        font-size: 1.5rem;
+    }
+    /* Header */
+    
+    .hero {
+        padding: 2rem;
+        padding-bottom: 2rem;
+        padding-top: 7rem;
+        position: relative;
+    }
+    
+    .hero-img {
+        max-width: 350px;
+        display: block;
+        margin: auto;
+    }
+    
+    .hero-heading {
+        font-size: 3rem;
+        color: var(--grey-color);
+        padding-top: 1rem;
+        text-align: center;
+    }
+    
+    .span {
+        color: var(--primary-color);
+    }
+    
+    .section {
+        padding: 2rem;
+        text-align: center;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    
+    .ow {
+        background-color: var(--off-white);
+    }
+    
+    .footer {
+        background-color: var(--primary-color);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+        color: aliceblue;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+    
+    .footer ul {
+        padding-inline-start: 1px;
+    }
+    
+    .footer-heading {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        background: -webkit-linear-gradient(0deg, #f9d949, #f45050, #0e9dee);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    p {
+        color: var(--grey-color);
+    }
+    
+    .copyright {
+        font-size: 12px;
+    }
+    
+    .project-heading {
+        color: var(--grey-color);
+        font-size: 3rem;
+        text-decoration: wavy #ddd;
+    }
